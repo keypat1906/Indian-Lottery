@@ -1,4 +1,4 @@
-                                                                        Solution for Hungarian lottery
+                                Solution for Hungarian lottery
 
 Introduction:
 I have created this program in python3 and it is using argument as a file which contains multiple lines of numbers. My program parses each line and calculate the total number of winners who won 2, 3, 4 and 5 numbers.
