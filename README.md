@@ -74,4 +74,4 @@ For space, I am using dictionary to store 5 numbers it so it takes O(N) space co
 
 Improvement 
 This is most optimized code in the Python3 language. I have used memory map to process the large file which is 145 MB size. Any input or criticism welcome. 
-![image](https://github.com/keypat1906/Hungarian_lottery/assets/97865025/05a94f42-ba0e-43f9-b1b1-8e23d059b23c)
+
