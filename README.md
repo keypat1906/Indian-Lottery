@@ -24,15 +24,23 @@ This is sample output once you enter the lottery winners
 
 78 6 19 10 62
 Winner Numbers: ['78', '6', '19', '10', '62']
+
 --------------------------------------
-| Numbers matching   |      Winners   
+ Numbers matching   |      Winners   
+
 --------------------------------------
-| 5                  |       1
-| 4                  |       61
-| 3                  |       4056
-| 2                  |       112196
+
+ 5                  |       1
+
+ 4                  |       61
+
+ 3                  |       4056
+
+ 2                  |       112196
+
 --------------------------------------
 Total time taken to pull winners 6.293279409408569
+
 
 READY
  
