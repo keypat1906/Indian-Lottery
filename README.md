@@ -20,6 +20,21 @@ This program is heavily CPU bound so result may vary based on the machine we run
 
 This is sample screenshot of my tests. You can see it also lists how much time it takes to pull the results. Based on the sample file provided which has 10 million records, it takes average 5 to 6 seconds to calculate the results of 10 million records. 
 
+This is sample output once you enter the lottery winners
+
+78 6 19 10 62
+Winner Numbers: ['78', '6', '19', '10', '62']
+--------------------------------------
+| Numbers matching   |      Winners   
+--------------------------------------
+| 5                  |       1
+| 4                  |       61
+| 3                  |       4056
+| 2                  |       112196
+--------------------------------------
+Total time taken to pull winners 6.293279409408569
+
+READY
  
 
 Program will keep running until you press Cntrl C. You can enter as many as number you like to calculate the winners.
