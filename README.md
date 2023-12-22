@@ -5,11 +5,7 @@ I have created this program in python3 and it is using argument as a file which 
 
 
 How to run:
-You can execute the file on your shell like
-
-     pick_winner  FILENAME
-
-Or you can also run using python source file which I have attached in the src folder. You need python3 installed on your machine.
+You can run using python source file which I have attached in the src folder. You need python3 installed on your machine.
 
     pick_winner.py FILENAME
 
