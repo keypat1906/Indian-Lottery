@@ -1,5 +1,12 @@
-                                Solution for Hungarian lottery
+                                 Indian lottery Problem
 
+The problem
+
+This problem is related to the Indian lottery. In case you are not familiar with it: players pick 5 distinct numbers from 1 to 90. There is a weekly lottery picking event when the lotto organization picks 5 distinct numbers randomly between 1 and 90 – just like the players did. The player’s reward then depends on how many of the player’s numbers match with the ones selected at the lotto picking. A player wins if he/she has 2, 3, 4 or 5 matching numbers.
+Now, the problem: at the lottery event, right after picking the numbers, a computer shall be able to report quickly how many winners are in each category, for example:
+This report shall be generated within a couple of seconds after picking the winner number. The player’s numbers are known in advance – at least 1 hour ahead of the show. In peak periods there are about 5 million players, but to be sure we can assume it does not exceed 10 million.
+
+                                   Solution
 Introduction:
 I have created this program in python3 and it is using argument as a file which contains multiple lines of numbers. My program parses each line and calculate the total number of winners who won 2, 3, 4 and 5 numbers.
 
