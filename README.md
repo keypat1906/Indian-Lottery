@@ -67,11 +67,13 @@ READY
 Program will keep running until you press Cntrl C. You can enter as many as number you like to calculate the winners.
 
 Time and Space complexity
+
 Time complexity is easily O(N) where N is number of input lines we feed to the program. In addition I used dictionary to calculate and store the results which is O(1) best case and worst case is O(N). That means total time complexity is O(N) + O(1)  best case scenario.
 
 For space, I am using dictionary to store 5 numbers it so it takes O(N) space complexity where N=5
 
 
 Improvement 
+
 This is most optimized code in the Python3 language. I have used memory map to process the large file which is 145 MB size. Any input or criticism welcome. 
 
