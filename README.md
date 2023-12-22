@@ -14,7 +14,7 @@ I have created this program in python3 and it is using argument as a file which 
 How to run:
 You can run using python source file which I have attached in the src folder. You need python3 installed on your machine.
 
-    pick_winner.py FILENAME
+    pick_winner.py test.txt
 
 
 Input validation:
