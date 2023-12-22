@@ -6,6 +6,18 @@ This problem is related to the Indian lottery. In case you are not familiar with
 Now, the problem: at the lottery event, right after picking the numbers, a computer shall be able to report quickly how many winners are in each category, for example:
 This report shall be generated within a couple of seconds after picking the winner number. The player’s numbers are known in advance – at least 1 hour ahead of the show. In peak periods there are about 5 million players, but to be sure we can assume it does not exceed 10 million.
 
+Technical specification
+
+Write a console application in a freely chosen programming language that can be compiled on Linux. Your application will be called like this:
+./yourapp input.txt
+where input.txt file exists in the same folder and is an ascii file, in which each line contains 5 space separated integers (in the range of 1-90) representing one player’s numbers.
+
+When your application finished processing the player’s dataset from the file, it should write a line to
+the standard output like this: 
+READY
+
+Note that it should be newline terminated. After that, the program may receive multiple lines (identical to the file’s lines) representing the lottery’s picks and it should be able to report 4 space separated numbers on the standard output as fast as possible (line should be newline terminated). The four numbers shall mean the number of winners with 2, 3, 4 and 5 matches respectively.
+
                                    Solution
 Introduction:
 I have created this program in python3 and it is using argument as a file which contains multiple lines of numbers. My program parses each line and calculate the total number of winners who won 2, 3, 4 and 5 numbers.
